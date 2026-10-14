@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Harsh Mehta — Resume</title>
+<style>
+  @page { size: A4; margin: 7mm 12mm 6mm; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 8.9pt;
+    color: #111;
+    line-height: 1.13;
+    max-width: 186mm;
+    margin: 0 auto;
+    padding: 0;
+  }
+  h1 {
+    text-align: center;
+    font-size: 15.5pt;
+    letter-spacing: 0.5px;
+    margin-bottom: 1px;
+  }
+  .contact {
+    text-align: center;
+    font-size: 8pt;
+    margin-bottom: 6px;
+  }
+  .contact a { color: #1a0dab; text-decoration: none; }
+  h2 {
+    font-size: 9.6pt;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin: 4px 0 1px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 0;
+  }
+  p.summary { text-align: justify; }
+  .skill-line { margin: 1px 0; }
+  .skill-line b { font-weight: bold; }
+  .role { font-weight: bold; margin-top: 4px; }
+  .dates { font-weight: bold; font-size: 8.8pt; margin-bottom: 0; }
+  ul { margin: 1px 0 2px 15px; }
+  li { margin-bottom: 0; }
+  .proj-title { font-weight: bold; margin-top: 3px; }
+  .edu-title { font-weight: bold; font-size: 10pt; margin-top: 2px; }
+  .soft { margin-top: 2px; }
+  @media print {
+    body { padding: 0; }
+  }
+</style>
+</head>
+<body>
+
+<h1>HARSH MEHTA</h1>
+<div class="contact">
+  Email: harshmehta0519@gmail.com | Phone: +91 9988331757<br>
+  Portfolio: <a href="https://harshbuilds.vercel.app">harshbuilds.vercel.app</a> | LinkedIn: <a href="https://linkedin.com/in/harsh-mehta-0a99632a4">linkedin.com/in/harsh-mehta-0a99632a4</a>
+</div>
+
+<h2>Summary</h2>
+<p class="summary">
+Full-stack software developer (3+ years) with end-to-end ownership of production web platforms, real-time services,
+and cloud infrastructure. Strong across the MERN stack (React.js/Next.js, Node.js/Express) and Python backends
+(Flask/FastAPI/Django), building REST and WebSocket APIs, secure authentication, and data-driven dashboards.
+Hands-on with real-time and device-facing systems — socket-based communication, streaming responses, and
+mobile/edge apps for asset-security use cases — plus DevOps: Docker, CI/CD, and monitoring on AWS. Comfortable
+leading technical execution, defining architecture, reviewing code, and mentoring peers. Backed by an applied-ML
+research background (IEEE publication).
+</p>
+
+<h2>Technical Skills</h2>
+<div class="skill-line"><b>Languages:</b> JavaScript (ES6+), TypeScript, Python, SQL; working knowledge of Go &amp; Java</div>
+<div class="skill-line"><b>Frontend:</b> React.js, Next.js (SSR/ISR), Vue.js, Redux Toolkit, Tailwind CSS, responsive UI/UX</div>
+<div class="skill-line"><b>Backend &amp; Architecture:</b> Node.js, Express.js, Python (Flask, FastAPI, Django), REST APIs, microservices, modular/scalable system design</div>
+<div class="skill-line"><b>Real-Time &amp; IoT:</b> TCP sockets, WebSocket, MQTT, streaming responses; video streaming (RTSP / FFmpeg / WebRTC); edge/mobile device apps</div>
+<div class="skill-line"><b>Databases:</b> PostgreSQL, MySQL, MongoDB, Redis; data integrity, indexing &amp; caching, backups</div>
+<div class="skill-line"><b>DevOps &amp; Cloud:</b> Docker, Kubernetes, CI/CD (GitHub Actions, GitLab CI, Jenkins), Terraform; AWS (EC2, S3, Cognito, IAM), GCP</div>
+<div class="skill-line"><b>Observability &amp; Security:</b> Prometheus, Grafana, New Relic; JWT/secure auth, rate limiting, encryption, security hardening &amp; audits</div>
+<div class="skill-line"><b>Leadership &amp; Tooling:</b> Architecture &amp; API documentation, code reviews, mentoring, Agile/Scrum; Git, Postman, Swagger</div>
+
+<h2>Experience</h2>
+
+<div class="role">Full Stack Developer — Grest</div>
+<div class="dates">Mar 2026 – Present</div>
+<ul>
+  <li>Own end-to-end development of a live consumer platform — architected a monolithic Next.js/React frontend backed by Go (Golang) microservices alongside Node.js/Python services, exposing clean, documented REST and streaming APIs</li>
+  <li>Built real-time, streaming, and IoT device-facing integrations behind scalable Golang microservices, improving responsiveness and throughput</li>
+  <li>Designed and optimized MongoDB data models (with PostgreSQL where relational) plus Redis caching, cutting data-fetching latency and ensuring integrity</li>
+  <li>Implemented DevOps workflow — Dockerized services, GitLab CI/CD pipelines, and monitoring on AWS — and improved observed performance (PageSpeed desktop 34→75, mobile 31→55)</li>
+  <li>Led technical decisions, reviewed peers' code, and authored architecture/API documentation; built Python automation cutting manual effort ~90%</li>
+</ul>
+
+<div class="role">Software / Full Stack Developer — AGBE India</div>
+<div class="dates">Apr 2025 – Mar 2026</div>
+<ul>
+  <li>Built admin dashboards and data workflows (products, orders, users) with a reusable, component-based architecture supporting ERP-style modules</li>
+  <li>Containerized services with Docker, integrated third-party APIs, and set up logging, health checks, and alerting for critical flows</li>
+  <li>Wrote functional/integration tests and reviewed peers' code within Agile ceremonies, reducing post-deployment defects and improving reliability</li>
+</ul>
+
+<div class="role">Software Engineer (Next.js) — Cosmoon Media</div>
+<div class="dates">Jan 2024 – Mar 2025</div>
+<ul>
+  <li>Built and deployed responsive, performance-optimized web applications using Next.js and modern JavaScript</li>
+  <li>Integrated backend services and improved page-load performance through caching, code-splitting, and automated build/deploy steps</li>
+</ul>
+
+<h2>Projects</h2>
+
+<div class="proj-title">IVS — Secure Mobile Backend (Node.js + AWS)</div>
+<ul>
+  <li>Designed a production REST API for a security-focused mobile app: mobile+OTP auth, KYC, and JWT with refresh tokens over MongoDB</li>
+  <li>Hardened the service with Helmet, rate limiting, and input validation; integrated AWS Cognito and S3, and shipped Swagger API docs and Jest test coverage</li>
+</ul>
+
+<div class="proj-title">Theft Verification — Asset-Security App (Capacitor + React)</div>
+<ul>
+  <li>Built a cross-platform mobile app for verifying and securing goods, with image capture, S3 storage, and a documented backend contract</li>
+</ul>
+
+<div class="proj-title">Arcus — Multi-Tenant Admin Platform (Next.js + PostgreSQL)</div>
+<ul>
+  <li>Architected a modular, multi-tenant control plane with tenant provisioning and fine-grained authorization — Casbin RBAC/ABAC, JWT (JWKS), and bcrypt over PostgreSQL (TypeORM) with Redis caching</li>
+  <li>Built the DevOps and quality pipeline: Docker/docker-compose, GitHub Actions CI, and unit + integration + end-to-end test coverage (Vitest, Playwright)</li>
+</ul>
+
+<h2>Research</h2>
+<div class="proj-title">IEEE Publication (2024) — Deep Learning for Heart Disease Detection</div>
+<ul>
+  <li>Built and evaluated Python deep learning models; owned data preprocessing, feature engineering, and model evaluation</li>
+</ul>
+
+<h2>Education</h2>
+<div class="edu-title">Master of Computer Applications (MCA)</div>
+<div>Birla Institute of Technology, Mesra — 2025 | CGPA: 8.1</div>
+<div class="edu-title">Bachelor of Computer Applications (BCA)</div>
+<div>Guru Gobind Singh Indraprastha University (GGSIPU) — 2023 | CGPA: 9.33</div>
+
+<h2>Soft Skills</h2>
+<div class="soft">Technical Leadership • End-to-End Ownership • Mentoring &amp; Code Reviews • Cross-Team Collaboration • Clear Communication</div>
+
+</body>
+</html>

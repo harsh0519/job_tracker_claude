@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Harsh Kumar Mehta — Resume</title>
+<style>
+  @page { size: A4; margin: 9mm 12mm 8mm; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 9.3pt;
+    color: #111;
+    line-height: 1.22;
+    max-width: 186mm;
+    margin: 0 auto;
+    padding: 0;
+  }
+  h1 {
+    text-align: center;
+    font-size: 15.5pt;
+    letter-spacing: 0.5px;
+    margin-bottom: 1px;
+  }
+  .contact {
+    text-align: center;
+    font-size: 8pt;
+    margin-bottom: 6px;
+  }
+  .contact a { color: #1a0dab; text-decoration: none; }
+  h2 {
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin: 5px 0 2px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 0;
+  }
+  p.summary { text-align: justify; }
+  .skill-line { margin: 1px 0; }
+  .skill-line b { font-weight: bold; }
+  .role { font-weight: bold; margin-top: 4px; }
+  .dates { font-weight: bold; font-size: 8.8pt; margin-bottom: 0; }
+  ul { margin: 1px 0 2px 15px; }
+  li { margin-bottom: 0; }
+  .proj-title { font-weight: bold; margin-top: 3px; }
+  .edu-title { font-weight: bold; font-size: 10pt; margin-top: 2px; }
+  .soft { margin-top: 2px; }
+  @media print {
+    body { padding: 0; }
+  }
+</style>
+</head>
+<body>
+
+<h1>HARSH KUMAR MEHTA</h1>
+<div class="contact">
+  Email: harshmehta0519@gmail.com | Phone: +91 9988331757<br>
+  Portfolio: <a href="https://harshbuilds.vercel.app">harshbuilds.vercel.app</a> | LinkedIn: <a href="https://linkedin.com/in/harsh-mehta-0a99632a4">linkedin.com/in/harsh-mehta-0a99632a4</a>
+</div>
+
+<h2>Summary</h2>
+<p class="summary">
+Backend-focused Software Engineer with 2+ years shipping production systems for consumer-facing products.
+Deep hands-on expertise in Node.js and Express — designing and scaling high-traffic REST services, owning
+data modelling and schema design across SQL (PostgreSQL, MySQL) and NoSQL (MongoDB), and optimizing queries
+under real load. Comfortable owning systems end-to-end: architecture, third-party API integrations,
+production debugging, and monitoring. Uses AI coding tools aggressively as a force multiplier to ship
+meaningful surface area on a lean team.
+</p>
+
+<h2>Technical Skills</h2>
+<div class="skill-line"><b>Backend (Primary):</b> Node.js, Express.js, REST API design, JWT Auth, RBAC, Microservices, Webhooks</div>
+<div class="skill-line"><b>Languages:</b> JavaScript (ES6+), TypeScript, Python, SQL</div>
+<div class="skill-line"><b>Databases:</b> PostgreSQL, MySQL (Relational), MongoDB (NoSQL) — Data Modelling, Schema Design, Indexing &amp; Query Optimization</div>
+<div class="skill-line"><b>Architecture:</b> Distributed Multi-Tiered Systems, Caching, System Design, API Security, Rate Limiting, Service Isolation</div>
+<div class="skill-line"><b>Cloud &amp; Tools:</b> GCP (Cloud Storage, Firebase, BigQuery), Docker, Git, CI/CD, Postman, Vercel</div>
+<div class="skill-line"><b>AI Tooling:</b> Claude Code, Cursor, LLM-assisted development, agentic workflows for coding &amp; automation</div>
+<div class="skill-line"><b>Frontend (Working):</b> React.js, Next.js, Tailwind CSS</div>
+
+<h2>Experience</h2>
+
+<div class="role">Full Stack Developer (Node.js + MERN) — Grest</div>
+<div class="dates">Mar 2026 – Present</div>
+<ul>
+  <li>Design and maintain REST APIs on a distributed, multi-tiered Node.js/Express backend powering a live consumer e-commerce platform serving daily traffic</li>
+  <li>Own MongoDB (NoSQL) and relational schema design; optimized indexes and queries to cut key endpoint response times and support growing catalog scale</li>
+  <li>Integrated third-party APIs — pricing, inventory, payment and webhook flows — with retry, idempotency, and failure handling</li>
+  <li>Built Python automation pipelines for competitor price scraping and bulk catalog updates, cutting manual effort by ~90%</li>
+  <li>Implemented JWT-based authentication and role-based access control (RBAC) across services</li>
+  <li>Monitor, debug, and resolve production incidents end-to-end, ensuring an uninterrupted customer experience</li>
+  <li>Use AI coding tools (Claude Code, Cursor) daily to ship features and refactors faster on a lean team</li>
+</ul>
+
+<div class="role">Full Stack Developer — AGBE India</div>
+<div class="dates">Apr 2025 – Mar 2026</div>
+<ul>
+  <li>Built internal ops and admin tooling — dashboards for products, orders, and users — backed by relational databases</li>
+  <li>Designed data workflows with filters, pagination, and reporting queries over PostgreSQL/MySQL</li>
+  <li>Integrated third-party APIs, built reusable service modules, and wrote functional tests for critical flows</li>
+  <li>Debugged and remediated production defects, improving system reliability</li>
+</ul>
+
+<div class="role">Full Stack Developer (Next.js) — Cosmoon Media</div>
+<div class="dates">Jan 2024 – Mar 2025</div>
+<ul>
+  <li>Built responsive, performance-optimized consumer web applications with Next.js and Node.js APIs</li>
+  <li>Improved page-load performance through caching and code-splitting; integrated backend services for dynamic content</li>
+  <li>Delivered scalable frontend and API architecture for content-driven platforms</li>
+</ul>
+
+<h2>Projects</h2>
+
+<div class="proj-title">Arcus Dashboard (Full Stack, Node.js)</div>
+<ul>
+  <li>Built backend services in Node.js/Express with both PostgreSQL (relational) and MongoDB (NoSQL) data stores</li>
+  <li>Designed a distributed microservices architecture with independently scalable, multi-tiered services and caching to reduce API latency</li>
+  <li>Implemented RBAC, JWT authentication, CI/CD pipelines, and automated API tests; planned failure handling and monitoring</li>
+</ul>
+
+<div class="proj-title">Price Intelligence Engine (Node.js + Python)</div>
+<ul>
+  <li>Built a service that scrapes, normalizes, and stores live competitor pricing into a relational database</li>
+  <li>Exposed cleaned data through REST APIs with scheduled jobs for automated daily updates</li>
+</ul>
+
+<h2>Education</h2>
+<div class="edu-title">Master of Computer Applications (MCA)</div>
+<div>Birla Institute of Technology, Mesra — 2025 | CGPA: 8.1</div>
+<div class="edu-title">Bachelor of Computer Applications (BCA)</div>
+<div>Guru Gobind Singh Indraprastha University (GGSIPU) — 2023 | CGPA: 9.33</div>
+
+<h2>Research</h2>
+<div class="proj-title">IEEE Publication (2024) — Deep Learning for Heart Disease Detection</div>
+<ul>
+  <li>Built and evaluated Python-based deep learning models; analyzed algorithmic performance and real-world applicability</li>
+</ul>
+
+<h2>Soft Skills</h2>
+<div class="soft">End-to-End Ownership • Problem Solving • Production Debugging • Collaboration with Product &amp; Business Teams • Bias for Shipping • Adaptability</div>
+
+</body>
+</html>

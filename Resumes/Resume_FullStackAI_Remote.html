@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Harsh Kumar Mehta — Resume</title>
+<style>
+  @page { size: A4; margin: 9mm 12mm 8mm; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 9.3pt;
+    color: #111;
+    line-height: 1.22;
+    max-width: 186mm;
+    margin: 0 auto;
+    padding: 0;
+  }
+  h1 {
+    text-align: center;
+    font-size: 15.5pt;
+    letter-spacing: 0.5px;
+    margin-bottom: 1px;
+  }
+  .contact {
+    text-align: center;
+    font-size: 8pt;
+    margin-bottom: 6px;
+  }
+  .contact a { color: #1a0dab; text-decoration: none; }
+  h2 {
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin: 5px 0 2px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 0;
+  }
+  p.summary { text-align: justify; }
+  .skill-line { margin: 1px 0; }
+  .skill-line b { font-weight: bold; }
+  .role { font-weight: bold; margin-top: 4px; }
+  .dates { font-weight: bold; font-size: 8.8pt; margin-bottom: 0; }
+  ul { margin: 1px 0 2px 15px; }
+  li { margin-bottom: 0; }
+  .proj-title { font-weight: bold; margin-top: 3px; }
+  .edu-title { font-weight: bold; font-size: 10pt; margin-top: 2px; }
+  .soft { margin-top: 2px; }
+  @media print {
+    body { padding: 0; }
+  }
+</style>
+</head>
+<body>
+
+<h1>HARSH KUMAR MEHTA</h1>
+<div class="contact">
+  Email: harshmehta0519@gmail.com | Phone: +91 9988331757<br>
+  Portfolio: <a href="https://harshbuilds.vercel.app">harshbuilds.vercel.app</a> | LinkedIn: <a href="https://linkedin.com/in/harsh-mehta-0a99632a4">linkedin.com/in/harsh-mehta-0a99632a4</a>
+</div>
+
+<h2>Summary</h2>
+<p class="summary">
+Full Stack AI Engineer with 2+ years building AI-powered, production web applications end to end.
+Strong in React.js and Next.js on the frontend with Node.js/Express services on the backend, and hands-on
+integrating Generative AI and LLMs — OpenAI, Azure OpenAI, Anthropic (Claude), and Google Gemini — into
+real product features. Experienced with prompt engineering, streaming responses, RAG, function/tool calling,
+and shipping LLM integrations behind clean, scalable APIs. Comfortable owning features across the full stack
+and working autonomously in a remote team. Backed by an applied-ML research background (IEEE publication).
+</p>
+
+<h2>Technical Skills</h2>
+<div class="skill-line"><b>Frontend:</b> React.js, Next.js (App Router, SSR/ISR), TypeScript, Tailwind CSS, Responsive UI</div>
+<div class="skill-line"><b>Generative AI &amp; LLMs:</b> OpenAI, Azure OpenAI, Anthropic (Claude), Google Gemini APIs; prompt engineering, streaming, function/tool calling, RAG, embeddings &amp; vector search</div>
+<div class="skill-line"><b>Backend:</b> Node.js, Express.js, REST APIs, serverless/edge functions, JWT Auth, webhooks, third-party API integrations</div>
+<div class="skill-line"><b>Languages:</b> JavaScript (ES6+), TypeScript, Python, SQL</div>
+<div class="skill-line"><b>Databases:</b> MongoDB (NoSQL), PostgreSQL/MySQL (Relational), vector stores</div>
+<div class="skill-line"><b>Cloud &amp; Tools:</b> Vercel, GCP, Docker, Git, CI/CD (GitHub Actions), Postman</div>
+<div class="skill-line"><b>AI Dev Tooling:</b> Claude Code, Cursor, Copilot — agentic, LLM-assisted development workflows</div>
+
+<h2>Experience</h2>
+
+<div class="role">Full Stack Developer — Grest</div>
+<div class="dates">Mar 2026 – Present</div>
+<ul>
+  <li>Build AI-powered features into a live consumer platform — integrated LLM APIs (OpenAI / Anthropic) for content generation, product enrichment, and automation behind Node.js services</li>
+  <li>Developed React/Next.js frontends and backend REST APIs end to end, with streaming LLM responses and clean prompt/response handling</li>
+  <li>Built Python automation and data pipelines for scraping, cleanup, and bulk catalog updates, cutting manual effort by ~90%</li>
+  <li>Integrated third-party APIs (Shopify Admin REST/GraphQL, pricing, webhooks) with retry and idempotency</li>
+  <li>Improved site performance through profiling — PageSpeed desktop 34→75 and mobile 31→55</li>
+  <li>Use AI dev tooling (Claude Code, Cursor) daily to ship features and refactors faster</li>
+</ul>
+
+<div class="role">Full Stack Developer — AGBE India</div>
+<div class="dates">Apr 2025 – Mar 2026</div>
+<ul>
+  <li>Built admin dashboards and data workflows for products, orders, and users with reusable component architecture</li>
+  <li>Integrated third-party APIs, implemented filters/pagination, and wrote functional tests for critical flows</li>
+  <li>Debugged and remediated production defects, improving reliability</li>
+</ul>
+
+<div class="role">Full Stack Developer (Next.js) — Cosmoon Media</div>
+<div class="dates">Jan 2024 – Mar 2025</div>
+<ul>
+  <li>Built responsive, performance-optimized web applications using Next.js and modern JavaScript</li>
+  <li>Integrated backend services and improved page-load performance through caching and code-splitting</li>
+</ul>
+
+<h2>Projects</h2>
+
+<div class="proj-title">AI Assistant / LLM Integration (Next.js + Node.js)</div>
+<ul>
+  <li>Built a chat-style assistant with streaming LLM responses, function/tool calling, and RAG over a document store using embeddings and vector search</li>
+  <li>Abstracted a provider-agnostic layer to swap between OpenAI, Anthropic, and Gemini models; handled rate limits, retries, and token/cost tracking</li>
+</ul>
+
+<div class="proj-title">Arcus Dashboard (Full Stack Application)</div>
+<ul>
+  <li>Role-based dashboard with RBAC and JWT auth; Node.js backend over MongoDB and PostgreSQL with automated API tests and CI/CD</li>
+</ul>
+
+<h2>Research</h2>
+<div class="proj-title">IEEE Publication (2024) — Deep Learning for Heart Disease Detection</div>
+<ul>
+  <li>Built and evaluated Python deep learning models; owned data preprocessing, feature engineering, and model evaluation</li>
+</ul>
+
+<h2>Education</h2>
+<div class="edu-title">Master of Computer Applications (MCA)</div>
+<div>Birla Institute of Technology, Mesra — 2025 | CGPA: 8.1</div>
+<div class="edu-title">Bachelor of Computer Applications (BCA)</div>
+<div>Guru Gobind Singh Indraprastha University (GGSIPU) — 2023 | CGPA: 9.33</div>
+
+<h2>Soft Skills</h2>
+<div class="soft">End-to-End Ownership • Autonomous Remote Collaboration • Problem Solving • Product Thinking • Communication • Adaptability</div>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Harsh Kumar Mehta — Resume</title>
+<style>
+  @page { size: A4; margin: 9mm 12mm 8mm; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 9.3pt;
+    color: #111;
+    line-height: 1.22;
+    max-width: 186mm;
+    margin: 0 auto;
+    padding: 0;
+  }
+  h1 {
+    text-align: center;
+    font-size: 15.5pt;
+    letter-spacing: 0.5px;
+    margin-bottom: 1px;
+  }
+  .contact {
+    text-align: center;
+    font-size: 8pt;
+    margin-bottom: 6px;
+  }
+  .contact a { color: #1a0dab; text-decoration: none; }
+  h2 {
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin: 5px 0 2px;
+    border-bottom: 1px solid #999;
+    padding-bottom: 0;
+  }
+  p.summary { text-align: justify; }
+  .skill-line { margin: 1px 0; }
+  .skill-line b { font-weight: bold; }
+  .role { font-weight: bold; margin-top: 4px; }
+  .dates { font-weight: bold; font-size: 8.8pt; margin-bottom: 0; }
+  ul { margin: 1px 0 2px 15px; }
+  li { margin-bottom: 0; }
+  .proj-title { font-weight: bold; margin-top: 3px; }
+  .edu-title { font-weight: bold; font-size: 10pt; margin-top: 2px; }
+  .soft { margin-top: 2px; }
+  @media print {
+    body { padding: 0; }
+  }
+</style>
+</head>
+<body>
+
+<h1>HARSH KUMAR MEHTA</h1>
+<div class="contact">
+  Email: harshmehta0519@gmail.com | Phone: +91 9988331757 | Remote (India)<br>
+  Portfolio: <a href="https://harshbuilds.vercel.app">harshbuilds.vercel.app</a> | LinkedIn: <a href="https://linkedin.com/in/harsh-mehta-0a99632a4">linkedin.com/in/harsh-mehta-0a99632a4</a>
+</div>
+
+<h2>Summary</h2>
+<p class="summary">
+Web Application Developer with 3+ years building production-grade web apps end to end in a
+<b>TypeScript / React</b> frontend and <b>Python (FastAPI)</b> API layer. I turn complex data workflows —
+review queues, approval/rejection flows, lineage and quality dashboards — into polished, enterprise-ready
+tools, and I build on <b>Databricks</b> (Apps, Unity Catalog, Delta Lake, DBSQL Connector) with the
+Databricks SDK for authentication and workspace resource management. Comfortable designing clean REST APIs
+with OpenAPI/Swagger, shipping through <b>GitHub Actions / Azure DevOps</b> with Docker and Databricks Asset
+Bundles across DEV/INT/UAT/PROD, and integrating <b>LLM / model-serving endpoints</b> (Anthropic Claude,
+OpenAI) to surface AI-generated summaries and quality assessments in the UI. I write tests, keep critical
+paths above 80% coverage, hold a strong TypeScript typing and accessibility discipline, and work
+autonomously in a globally distributed, remote-first team.
+</p>
+
+<h2>Technical Skills</h2>
+<div class="skill-line"><b>Frontend:</b> React (hooks, component composition, Suspense), TypeScript (strict typing discipline), Redux Toolkit &amp; Zustand, Next.js, Vite / ESBuild, Tailwind CSS, responsive UI, WCAG accessibility</div>
+<div class="skill-line"><b>Backend / APIs:</b> Python — FastAPI &amp; Flask (async handlers, dependency injection, Pydantic), REST API design, OpenAPI / Swagger, Node.js / Express, JWT / OAuth auth, webhooks</div>
+<div class="skill-line"><b>Databricks &amp; Data Platform:</b> Databricks Apps (SDK authentication, app lifecycle, workspace resources), Unity Catalog (schemas, tables, volumes, grants, lineage APIs), Delta Lake, Spark SQL, Databricks SQL (DBSQL) Connector for Python, AI Model Serving endpoints, Databricks Asset Bundles (DABs)</div>
+<div class="skill-line"><b>Generative AI &amp; LLMs:</b> Anthropic (Claude), OpenAI, cloud-hosted models via Databricks Model Serving; prompt engineering, streaming, function/tool calling, narrative summarisation, RAG</div>
+<div class="skill-line"><b>DevOps &amp; Cloud:</b> Azure (App Service, containers), Azure DevOps &amp; GitHub Actions CI/CD, Docker &amp; containerisation, multi-environment (DEV/INT/UAT/PROD) deployment, Git, pull-request workflows, semantic versioning</div>
+<div class="skill-line"><b>Data Quality &amp; Viz:</b> data validation / quality checks, dbt tests &amp; Great Expectations concepts, graph visualisation with D3.js &amp; Cytoscape.js (lineage / dependency graphs), interactive dashboards</div>
+<div class="skill-line"><b>Testing &amp; Quality:</b> Pytest, Vitest / Jest, React Testing Library, unit &amp; integration tests, &gt;80% coverage on critical paths, PR reviews, technical documentation</div>
+<div class="skill-line"><b>Languages &amp; DBs:</b> TypeScript, JavaScript (ES6+), Python, SQL; PostgreSQL / MySQL, MongoDB, Delta tables</div>
+
+<h2>Experience</h2>
+
+<div class="role">Web Application Developer (Full Stack) — Grest</div>
+<div class="dates">Mar 2026 – Present</div>
+<ul>
+  <li>Design and build <b>React + FastAPI</b> internal tools deployed as <b>Databricks Apps</b>, authenticated via the Databricks SDK and running stateless and containerised inside the workspace security perimeter</li>
+  <li>Built <b>data stewardship / workflow UIs</b> — review queues, confidence visualisations, and approval/rejection flows — backed by FastAPI REST APIs over Delta tables via the DBSQL Connector</li>
+  <li>Developed interactive dashboards surfacing <b>data lineage, quality scores, and pipeline health</b> from Unity Catalog, using D3.js/Cytoscape.js for lineage graphs and table discovery through the Databricks SDK &amp; REST APIs</li>
+  <li>Integrated <b>AI Model Serving</b> endpoints (Anthropic Claude / OpenAI) to surface narrative summaries and quality assessments in the UI behind clean, streaming APIs</li>
+  <li>Authored <b>Databricks Asset Bundles (DABs)</b> and GitHub Actions pipelines for CI/CD across DEV/INT/UAT/PROD; maintained &gt;80% coverage on critical paths with Pytest and Vitest</li>
+  <li>Improved application performance through profiling — PageSpeed desktop 34&rarr;75, mobile 31&rarr;55 — and produced API contracts, component-library and deployment runbook documentation for handover</li>
+</ul>
+
+<div class="role">Full Stack Developer — AGBE India</div>
+<div class="dates">Apr 2025 – Mar 2026</div>
+<ul>
+  <li>Built admin dashboards and data-management workflows for products, orders, and users on a reusable, strictly-typed <b>React + TypeScript</b> component architecture with Redux Toolkit state management</li>
+  <li>Developed Python/Node REST APIs with filters, pagination, and OpenAPI documentation; integrated third-party services and wrote unit and integration tests for critical flows</li>
+  <li>Drove PR reviews and remediated production defects, upholding front-end coding standards and accessibility guidelines while keeping delivery moving</li>
+</ul>
+
+<div class="role">Front-End / Full Stack Developer (React) — Cosmoon Media</div>
+<div class="dates">Jan 2024 – Mar 2025</div>
+<ul>
+  <li>Built responsive, performance-optimised web applications with React, TypeScript, and modern build tooling (Vite), integrating backend services over REST</li>
+  <li>Improved page-load performance through caching and code-splitting, balancing effort against measurable user impact</li>
+</ul>
+
+<h2>Projects</h2>
+
+<div class="proj-title">Data Stewardship &amp; Lineage Console (React + FastAPI on Databricks Apps)</div>
+<ul>
+  <li>Stewardship queue with confidence-scored records, bulk approve/reject flows, and audit trail; FastAPI backend querying Unity Catalog and Delta tables via the DBSQL Connector, deployed as a Databricks App via DABs</li>
+  <li>Lineage explorer rendering table/column dependency graphs with Cytoscape.js from Unity Catalog lineage APIs; quality-score panels enriched with LLM-generated narrative summaries from a model serving endpoint</li>
+</ul>
+
+<div class="proj-title">AI Assistant / LLM Integration (React + Python)</div>
+<ul>
+  <li>Provider-agnostic layer over Anthropic, OpenAI, and cloud-hosted models with streaming responses, function/tool calling, and RAG; handled rate limits, retries, and token/cost tracking behind clean APIs</li>
+</ul>
+
+<h2>Research &amp; Certifications</h2>
+<ul>
+  <li><b>IEEE Publication (2024)</b> — Deep Learning for Heart Disease Detection (Python; data preprocessing, feature engineering, model evaluation)</li>
+  <li>Microsoft Azure Fundamentals (AZ-900) &amp; Databricks Lakehouse Fundamentals — coursework/credential toward Databricks Associate</li>
+</ul>
+
+<h2>Education</h2>
+<div class="edu-title">Master of Computer Applications (MCA)</div>
+<div>Birla Institute of Technology, Mesra — 2025 | CGPA: 8.1</div>
+<div class="edu-title">Bachelor of Computer Applications (BCA)</div>
+<div>Guru Gobind Singh Indraprastha University (GGSIPU) — 2023 | CGPA: 9.33</div>
+
+<h2>Soft Skills</h2>
+<div class="soft">End-to-End Ownership • TypeScript &amp; Accessibility Discipline • Design &amp; PR Reviews • Clear Technical Documentation • Remote-First Collaboration Across Global Regions • Product Thinking</div>
+
+</body>
+</html>

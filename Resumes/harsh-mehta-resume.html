@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Harsh Kumar Mehta — Frontend Developer (Next.js / Nuxt.js)</title>
+<style>
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  body{
+    font-family:"Times New Roman", Georgia, serif;
+    color:#000; line-height:1.3; font-size:11px;
+    background:#f2f2f2; padding:24px;
+  }
+  .page{
+    width:210mm; min-height:297mm; margin:0 auto; background:#fff;
+    padding:14mm 16mm; box-shadow:0 2px 18px rgba(0,0,0,.12);
+  }
+  /* ---- header ---- */
+  header{ text-align:center; margin-bottom:8px; }
+  h1{ font-size:24px; letter-spacing:1px; font-weight:700; }
+  .contact{ font-size:10px; margin-top:3px; }
+  .contact a{ color:#0645ad; text-decoration:none; }
+  /* ---- sections ---- */
+  section{ margin-top:9px; }
+  h2{
+    font-size:11px; text-transform:uppercase; font-weight:700;
+    letter-spacing:.5px; border-bottom:1px solid #000;
+    padding-bottom:1px; margin-bottom:4px;
+  }
+  p.summary{ font-size:10.6px; text-align:justify; }
+  .skills p{ font-size:10.4px; margin-bottom:1.5px; }
+  .skills strong{ font-weight:700; }
+  /* ---- roles ---- */
+  .role-head{ display:flex; justify-content:space-between; align-items:baseline; }
+  .role-title{ font-weight:700; font-size:11px; }
+  .role-date{ font-weight:700; font-size:10px; }
+  .sub{ font-weight:700; font-size:10px; margin-bottom:1px; }
+  ul{ list-style:disc; margin:1px 0 5px 16px; }
+  ul li{ font-size:10.4px; margin-bottom:1px; }
+  .block{ margin-bottom:4px; }
+  .block:last-child{ margin-bottom:0; }
+  .edu-title{ font-weight:700; font-size:10.6px; }
+  .edu-line{ font-size:10.2px; }
+  .soft{ font-size:10.4px; }
+  @media print{
+    body{ background:#fff; padding:0; }
+    .page{ box-shadow:none; margin:0; width:auto; min-height:auto; padding:11mm 15mm; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>HARSH KUMAR MEHTA</h1>
+    <div class="contact">
+      Email: <a href="mailto:harshmehta0519@gmail.com">harshmehta0519@gmail.com</a> | Phone: +91 9988331757
+    </div>
+    <div class="contact">
+      Portfolio: <a href="https://harshbuilds.vercel.app">harshbuilds.vercel.app</a> |
+      LinkedIn: <a href="https://linkedin.com/in/harsh-mehta-0a99632a4">linkedin.com/in/harsh-mehta-0a99632a4</a> |
+      Location: Gurugram / Delhi NCR
+    </div>
+  </header>
+
+  <section>
+    <h2>Summary</h2>
+    <p class="summary">
+      Front End Developer with 2.5+ years of experience building responsive, performance-optimized web applications with
+      React.js and Next.js. Strong proficiency in JavaScript (ES6+) with working knowledge of TypeScript; experienced in
+      component-driven development, SSR/SSG rendering strategies, code-splitting, state management, and consuming REST and
+      GraphQL APIs with caching and retry strategies. Working knowledge of Vue.js and Nuxt.js, actively expanding across both
+      major SSR ecosystems. Available to join immediately in Gurugram (offline).
+    </p>
+  </section>
+
+  <section class="skills">
+    <h2>Technical Skills</h2>
+    <p><strong>Languages:</strong> JavaScript (ES6+), TypeScript (working knowledge), HTML5, CSS3, SASS/SCSS</p>
+    <p><strong>Next.js / React.js:</strong> SSR, SSG, ISR, Dynamic Imports, Code-Splitting, Functional Components, Hooks, Context API, Error Boundaries, Suspense</p>
+    <p><strong>Vue / Nuxt.js:</strong> Component-driven Vue, Nuxt SSR/SSG concepts, file-based routing (working knowledge, actively upskilling)</p>
+    <p><strong>State Management:</strong> Redux Toolkit, Zustand, Context API</p>
+    <p><strong>Styling:</strong> SASS/SCSS, Tailwind CSS, CSS Variables, Component-Driven Development, Responsive Design</p>
+    <p><strong>APIs:</strong> REST &amp; GraphQL consumption, Caching &amp; Retry Strategies, JWT Authentication, RBAC</p>
+    <p><strong>Architecture:</strong> Micro-Frontends (Module Federation — working knowledge), Performance Optimization, Core Web Vitals</p>
+    <p><strong>Backend &amp; Tools:</strong> Node.js, Express.js, MongoDB, PostgreSQL, Git, Docker, CI/CD, Vercel, Netlify</p>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+
+    <div class="block">
+      <div class="role-head">
+        <span class="role-title">Full Stack Developer (React / Next.js + Node.js) — Grest</span>
+        <span class="role-date">Mar 2026 – Present</span>
+      </div>
+      <ul>
+        <li>Built the React frontend for Grest TradeIn, a device trade-in platform with Government of India integration for device/IMEI verification, backed by Node.js REST APIs over MongoDB and deployed on AWS</li>
+        <li>Developed responsive, component-driven UI for verification and status-tracking workflows, consuming secure REST APIs with JWT auth, retries, and idempotency, and keeping the UI consistent under failure conditions</li>
+        <li>Maintain and extend the Shopify storefront — Admin REST/GraphQL integrations, pricing, and webhooks driving the trade-in flow</li>
+        <li>Improved application performance through profiling and optimization — PageSpeed desktop 34→75 and mobile 31→55</li>
+        <li>Built Python automation and data pipelines for scraping, cleanup, and bulk catalog updates, cutting manual effort by ~90%</li>
+        <li>Deploy features on AWS and support production issues; collaborate with product and design teams</li>
+      </ul>
+    </div>
+
+    <div class="block">
+      <div class="role-head">
+        <span class="role-title">Full Stack Developer (Angular) — AGBE India</span>
+        <span class="role-date">Apr 2025 – Mar 2026</span>
+      </div>
+      <ul>
+        <li>Developed e-commerce admin dashboards for products, orders, and users with reusable, component-driven UI patterns</li>
+        <li>Implemented filters, pagination, and complex data workflows over REST APIs</li>
+        <li>Wrote functional tests for critical UI flows and debugged production defects, improving reliability</li>
+      </ul>
+    </div>
+
+    <div class="block">
+      <div class="role-head">
+        <span class="role-title">Full Stack Developer (Next.js) — Cosmoon Media</span>
+        <span class="role-date">Jan 2024 – Mar 2025</span>
+      </div>
+      <ul>
+        <li>Built responsive web applications using Next.js with SSR/SSG rendering strategies for SEO-critical pages</li>
+        <li>Improved page-load performance through code-splitting, dynamic imports, and caching</li>
+        <li>Delivered scalable, component-driven frontend architecture for dynamic content platforms</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="block">
+      <div class="sub">Arcus Dashboard (Full Stack Application)</div>
+      <ul>
+        <li>Built a role-based React dashboard with protected routes (React Router) and centralized state management</li>
+        <li>Implemented secure access control (RBAC) with JWT authentication and error boundaries for graceful failure handling</li>
+        <li>Backend services in Node.js with MongoDB and PostgreSQL</li>
+      </ul>
+    </div>
+    <div class="block">
+      <div class="sub">Arcus Dashboard (System Design)</div>
+      <ul>
+        <li>Designed a modular, independently deployable frontend architecture aligned with micro-frontend principles</li>
+        <li>Implemented caching strategies to reduce API response times; built CI/CD workflows for automated deployments</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="block">
+      <div class="edu-title">Master of Computer Applications (MCA)</div>
+      <div class="edu-line">Birla Institute of Technology, Mesra — 2025 | CGPA: 8.1</div>
+    </div>
+    <div class="block">
+      <div class="edu-title">Bachelor of Computer Applications (BCA)</div>
+      <div class="edu-line">Guru Gobind Singh Indraprastha University (GGSIPU) — 2023 | CGPA: 9.33</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Research</h2>
+    <div class="sub">IEEE Publication (2024) — Deep Learning for Heart Disease Detection</div>
+    <ul>
+      <li>Built and evaluated Python-based deep learning models; analyzed performance and real-world applicability</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Soft Skills</h2>
+    <p class="soft">Problem Solving • Debugging • Communication • Collaboration with Product &amp; Design Teams • Ownership • Adaptability</p>
+  </section>
+
+</div>
+</body>
+</html>
